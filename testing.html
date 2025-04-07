@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Image Website</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f0f4f8; /* light blue-gray background */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .image-container {
+      max-width: 90%;
+      max-height: 90%;
+    }
+
+    .responsive-image {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="image-container">
+    <img
+      src="PwF_logo.png"
+      alt="Sample Image"
+      class="responsive-image"
+    />
+  </div>
+</body>
+</html>
